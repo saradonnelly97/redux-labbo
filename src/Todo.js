@@ -20,9 +20,9 @@ function Todo() {
                 <input type="text" onChange={(e) => setInput(e.target.value)} />
                 <button type="submit">Submit</button>
             </form>
-        <ul>
-            {renderItems}
-        </ul>
+            <ul>
+                {renderItems}
+            </ul>
         </div>
     )
 }
